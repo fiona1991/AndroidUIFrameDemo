@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <!-- base color -->
+    <color name="red">#FF0000</color>
+    <color name="black">#000000</color>
+    <color name="gray">#808080</color>
+    <color name="white">#FFFFFF</color>
+    <color name="transparent">#00000000</color>
+    <color name="black_p50">#7f000000</color>
+
+    <color name="app_basic">#1777CB</color>
+    <color name="app_basic_h">#10538E</color>
+
+    <color name="app_bg_light">#EBEBEB</color>
+
+    <color name="bg_topbar_button_nor">@color/transparent</color>
+    <color name="bg_topbar_button_h">#33000000</color>
+
+    <color name="text_button_white_nor">#FFFFFFFF</color>
+    <color name="text_button_white_h">#FFFFFFFF</color>
+    <color name="text_button_white_not_enable">#88FFFFFF</color>
+    <color name="text_button_blue_nor">#CC53C1EA</color>
+    <color name="text_button_blue_h">#FFFFFFFF</color>
+    <color name="text_button_blue_not_enable">#88FFFFFF</color>
+
+    <color name="bg_general_button_h">#33000000</color>
+    <color name="bg_general_button_not_enable">#22000000</color>
+    <color name="bg_general_button_blue">#CC53C1EA</color>
+
+    <color name="bg_general_button_empty_h">#C0C2C2</color>
+    <color name="bg_general_button_empty_not_enable">#C8C8C8</color>
+
+    <color name="text_general_edittext">#242424</color>
+    <color name="text_general_edittext_hint">#BFBFBF</color>
+
+    <color name="bg_login_edittext">#55FFFFFF</color>
+
+    <color name="text_login_edittext">#FFFFFFFF</color>
+    <color name="text_login_edittext_hint">#AAFFFFFF</color>
+
+</resources>

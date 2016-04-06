@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector 
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <layer-list>
+            <item>
+                <shape android:shape="rectangle">
+                    <solid android:color="@color/bg_general_button_empty_h" />
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+    
+    <item android:state_enabled="false">
+        <layer-list>
+            <item>
+                <shape android:shape="rectangle">
+                    <solid android:color="@color/bg_general_button_empty_not_enable" />
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+    <item>
+    	<layer-list>
+            <item>
+                <shape android:shape="rectangle">
+                    <stroke android:width="1px"
+                        android:color="@color/bg_general_button_blue"/>
+                    <solid android:color="@color/transparent" />
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+</selector>
+

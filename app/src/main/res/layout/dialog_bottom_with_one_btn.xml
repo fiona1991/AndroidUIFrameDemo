@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/bottomContainer"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <View
+        android:id="@+id/topLine"
+        android:layout_width="wrap_content"
+        android:layout_height="1px"
+        android:layout_alignLeft="@+id/rightTextView"
+        android:layout_alignRight="@+id/rightTextView"
+        android:background="#d4d4d4" />
+
+    <TextView
+        android:id="@+id/rightTextView"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dialog_two_btn_height"
+        android:gravity="center"
+        android:text="right"
+        android:layout_alignParentRight="true"
+        android:textColor="@drawable/textcolor_dialog_btn_ok"
+        android:textSize="@dimen/text_dialog_btn"/>
+
+</RelativeLayout>

@@ -1,0 +1,61 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <style name="TopbarTextButton">
+        <item name="android:layout_width">@dimen/topbar_button_width</item>
+        <item name="android:layout_height">@dimen/topbar_button_height</item>
+        <item name="android:clickable">true</item>
+        <item name="android:background">@drawable/bg_topbar_button</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@drawable/textcolor_white</item>
+        <item name="android:textSize">@dimen/text_topbar_button</item>
+    </style>
+    
+    <style name="LoginEditText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/login_edittext_height</item>
+        <item name="android:layout_marginLeft">@dimen/login_edittext_marign_left_and_right</item>
+        <item name="android:layout_marginRight">@dimen/login_edittext_marign_left_and_right</item>
+        <item name="android:paddingLeft">@dimen/general_padding_middle</item>
+        <item name="android:paddingRight">@dimen/general_padding_middle</item>
+        <item name="android:background">@color/bg_login_edittext</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textColor">@color/text_login_edittext</item>
+        <item name="android:textSize">@dimen/text_login_edittext</item>
+        <item name="android:textColorHint">@color/text_login_edittext_hint</item>
+    </style>
+    
+    <style name="GeneralEditText" parent="LoginEditText">
+        <item name="android:background">@mipmap/bg_edittext</item>
+        <item name="android:textColor">@color/text_general_edittext</item>
+        <item name="android:textColorHint">@color/text_general_edittext_hint</item>
+    </style>
+    
+    <style name="GeneralLargeButton">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/general_button_large_height</item>
+        <item name="android:layout_marginLeft">@dimen/login_edittext_marign_left_and_right</item>
+        <item name="android:layout_marginRight">@dimen/login_edittext_marign_left_and_right</item>
+        <item name="android:clickable">true</item>
+        <item name="android:background">@drawable/bg_general_button_blue</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@drawable/textcolor_white</item>
+        <item name="android:textSize">@dimen/text_general_large_button</item>
+    </style>
+    
+    <style name="GeneralLargeEmptyButton" parent="GeneralLargeButton">
+        <item name="android:background">@drawable/bg_general_button_empty_blue</item>
+        <item name="android:textColor">@drawable/textcolor_blue</item>
+    </style>
+
+    <style name="CustomCheckboxTheme" parent="@android:style/Widget.CompoundButton.CheckBox">
+        <item name="android:background">@drawable/custom_checkbox</item>
+        <item name="android:button">@color/transparent</item>
+    </style>
+
+
+    <style name="anim_popup_dir">
+        <item name="android:windowEnterAnimation">@anim/slide_in</item>
+        <item name="android:windowExitAnimation">@anim/slide_out</item>
+    </style>
+
+</resources>

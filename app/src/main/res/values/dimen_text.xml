@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="text_toast">14sp</dimen>
+
+    <dimen name="text_main_tabhost_item">11sp</dimen>
+    <dimen name="text_topbar_button">14sp</dimen>
+    <dimen name="text_topbar_title">16sp</dimen>
+    <dimen name="text_topbar_subtitle">12sp</dimen>
+    <dimen name="text_login_edittext">14sp</dimen>
+
+    <dimen name="text_general_large_button">14sp</dimen>
+    <dimen name="text_general_middle_button">12sp</dimen>
+    <dimen name="text_general_small_button">10sp</dimen>
+
+    <dimen name="text_data_list_title">14sp</dimen>
+    <dimen name="text_data_list_subtitle">12sp</dimen>
+
+</resources>

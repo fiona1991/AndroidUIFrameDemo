@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center" 
+    android:background="@color/white"
+    android:paddingTop="@dimen/dialog_progress_padding_top_and_bottom"
+    android:paddingBottom="@dimen/dialog_progress_padding_top_and_bottom">
+
+    <RelativeLayout
+        android:id="@+id/progressbarContainer"
+        android:layout_width="@dimen/dialog_progress_width"
+        android:layout_height="wrap_content" >
+
+        <ProgressBar
+            style="?android:attr/progressBarStyle"
+            android:layout_width="@dimen/dialog_progress_progressbar_icon"
+            android:layout_height="@dimen/dialog_progress_progressbar_icon"
+            android:layout_centerInParent="true"
+            android:indeterminate="true" 
+            android:indeterminateBehavior="repeat"
+            android:indeterminateDrawable="@drawable/ic_dialog_progressbar_rotate">
+        </ProgressBar>
+        
+         <ImageView 
+            android:layout_width="@dimen/dialog_progress_progressbar_logo"
+            android:layout_height="@dimen/dialog_progress_progressbar_logo"
+            android:src="@mipmap/ic_launcher"
+            android:layout_centerInParent="true"/>
+    </RelativeLayout>
+    
+    <ImageView 
+        android:id="@+id/hintView"
+        android:layout_width="@dimen/dialog_progress_progressbar_hint_width"
+        android:layout_height="@dimen/dialog_progress_progressbar_hint_height"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/progressbarContainer"
+        android:src="@mipmap/ic_progress_hint"/>
+    
+    <TextView 
+        android:id="@+id/msgTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/hintView"
+        android:layout_centerHorizontal="true"
+        android:maxWidth="@dimen/dialog_progress_text_max_width"
+        android:gravity="center_horizontal|top"
+        android:layout_marginBottom="@dimen/dialog_progress_text_margin_bottom"
+        android:layout_marginTop="@dimen/dialog_progress_magrin"
+        android:textSize="@dimen/text_dialog_progress_title"/>
+
+</RelativeLayout>

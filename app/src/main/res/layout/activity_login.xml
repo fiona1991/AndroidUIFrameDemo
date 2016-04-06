@@ -1,0 +1,69 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rootContainer"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:background="@mipmap/bg_welcome" >
+
+    <TextView
+        android:id="@+id/registerButton"
+        style="@style/TopbarTextButton"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_margin="@dimen/general_margin_small"
+        android:text="@string/account_register" />
+
+    <EditText
+        android:id="@+id/phonenumberEditText"
+        style="@style/LoginEditText"
+        android:layout_above="@+id/passwordEditText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/general_margin_middle"
+        android:hint="@string/account_phonenumber_hint"
+        android:inputType="phone"
+        android:maxLength="@integer/phone_number_length"  />
+
+    <EditText
+        android:id="@+id/passwordEditText"
+        style="@style/LoginEditText"
+        android:hint="@string/account_password_hint"
+        android:layout_above="@+id/loginButton"
+        android:inputType="textPassword"
+        android:maxLength="@integer/password_max_length"/>
+
+    <TextView
+        android:id="@+id/loginButton"
+        style="@style/GeneralLargeButton"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="@dimen/general_margin_middle"
+        android:text="@string/account_login" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/loginButton"
+        android:layout_alignRight="@+id/loginButton"
+        android:layout_below="@+id/loginButton"
+        android:layout_centerHorizontal="true" >
+
+        <TextView
+            android:id="@+id/forgetTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:padding="@dimen/general_padding_small"
+            android:text="@string/account_forget_password"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_topbar_button" />
+
+        <TextView
+            android:id="@+id/mcodeTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:padding="@dimen/general_padding_small"
+            android:text="@string/account_mcode_login"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_topbar_button" />
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/general_margin_middle" >
+
+        <EditText
+            android:id="@+id/phonenumberEditText"
+            style="@style/GeneralEditText"
+            android:layout_marginRight="0dp"
+            android:layout_toLeftOf="@+id/mcodeButton"
+            android:hint="@string/account_phonenumber_hint"
+            android:inputType="phone"
+            android:maxLength="@integer/phone_number_length" />
+
+        <TextView
+            android:id="@+id/mcodeButton"
+            style="@style/GeneralLargeEmptyButton"
+            android:layout_width="@dimen/login_mcode_width"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="0dp"
+            android:text="@string/account_get_mcode" />
+    </RelativeLayout>
+
+    <EditText
+        android:id="@+id/mcodeEditText"
+        style="@style/GeneralEditText"
+        android:hint="@string/account_mcode_hint"
+        android:inputType="number"
+        android:maxLength="@integer/mcode_length" />
+
+    <TextView
+        android:id="@+id/nextButton"
+        style="@style/GeneralLargeButton"
+        android:layout_marginTop="@dimen/general_margin_middle"
+        android:text="@string/general_next" />
+
+</LinearLayout>

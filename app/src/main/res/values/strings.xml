@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">FionaHaHaHa</string>
+
+    <string name="general_exit_hint">再按一次退出%1$s</string>
+    <string name="general_mcode_countdown">%1$s秒</string>
+    <string name="general_next">下一步</string>
+    <string name="general_wait">请稍等</string>
+    <string name="general_cancel">取消</string>
+    <string name="general_ok">确定</string>
+    <string name="general_preview">预览</string>
+    <string name="general_done">完成</string>
+
+
+    <string name="account_register">注册</string>
+    <string name="account_phonenumber_hint">手机号</string>
+    <string name="account_password_hint">密码</string>
+    <string name="account_mcode_hint">验证码</string>
+    <string name="account_get_mcode">获取验证码</string>
+    <string name="account_login">登陆</string>
+    <string name="account_forget_password">忘记密码</string>
+    <string name="account_mcode_login">验证码登录</string>
+    <string name="account_login_by_mcode_title">验证码登陆</string>
+    <string name="account_password_forget_hint1">填写密码</string>
+</resources>

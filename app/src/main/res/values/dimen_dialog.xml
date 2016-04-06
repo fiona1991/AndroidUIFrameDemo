@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="dialog_progress_magrin">10dp</dimen>
+    <dimen name="dialog_progress_padding_top_and_bottom">20dp</dimen>
+    <dimen name="dialog_progress_width">150dp</dimen>
+    <dimen name="dialog_progress_progressbar_icon">35dp</dimen>
+    <dimen name="dialog_progress_progressbar_logo">27dp</dimen>
+    <dimen name="dialog_progress_progressbar_hint_width">40dp</dimen>
+    <dimen name="dialog_progress_progressbar_hint_height">18dp</dimen>
+    <dimen name="dialog_progress_text_max_width">200dp</dimen>
+    <dimen name="dialog_progress_text_margin_bottom">20dp</dimen>
+
+    <dimen name="dialog_two_btn_height">60dp</dimen>
+
+
+    <dimen name="text_dialog_progress_title">12sp</dimen>
+    <dimen name="text_dialog_title">16sp</dimen>
+    <dimen name="text_dialog_btn">16sp</dimen>
+
+</resources>
